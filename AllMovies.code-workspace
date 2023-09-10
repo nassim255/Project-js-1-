@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../ProjecT/AllMovies"
+		},
+		{
+			"path": "../../CSS HTML JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AllMovies"
+	}
+}
