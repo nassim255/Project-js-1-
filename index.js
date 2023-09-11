@@ -1,18 +1,17 @@
+//get element
+var inputEle = document.getElementById("inputText");
+var buttonEle = document.getElementById("button");
+var textEle = document.getElementById("textt")
 
-// get elements into variable
-var inputEle = document.getElementById("input");
-var buttonEle = document.getElementById("btn");
-var msgEl = document.getElementById("msg")
+// from input to new variabl
 
-// Events
 
-buttonEle.onclick = function() {
-
-    if (inputEle.value != ""){
-        // get value from input
-        var inputValue = inputEle.value; 
-    
-        // put input Value into P
-        msgEl.innerHTML = inputValue
+//move the text to p
+    buttonEle.onclick = function(){
+        var inputValue = inputEle.value
+        if (inputEle.value != "") {
+            textEle.innerHTML = inputValue;
+            inputEle.value = ""
+        }
     }
-} 
+
